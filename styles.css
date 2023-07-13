@@ -1,29 +1,52 @@
 body {
     display: flex;
     flex-direction: column;
+    background-color: rgb(255, 192, 226);
 }
+
 img {
     width: 100px;
 }
 
-h1{
+h1 {
     align-self: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 2rem;
+}
+
+h2 {
+    align-self: center;
 }
 
 #food-section {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding-inline-start: 5%;
+
 }
+
 #cold-section {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding-inline-start: 5%;
 }
+
 #hot-section {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding-inline-start: 5%;
+
+}
+
+.item{
+    background-color: rgb(243, 252, 210);
+    border-radius: 20px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
 }
