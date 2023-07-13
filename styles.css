@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+img {
+    width: 100px;
+}
+
+h1{
+    align-self: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 2rem;
+}
+
+#food-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#cold-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#hot-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
